@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+<body>
+
+<div class='container'>
+  <div class='card'>
+    <h1> Olá!</h1>
+    
+    <div class='label-float'>
+      <input type='text' id='usuario' paceholder='' required>
+      <label id='userLabel' for='usuario'>Usuário</label>
+    </div>
+    
+    <div class='label-float'>
+      <input type='password' id='myInput' paceholder='' required>
+      <label id='senhaLabel' for='senha'>Senha</label>
+     <!-- <span class="eye" onClick="myFunction()"> -->
+      <i id="hide1" onClick="myFunction()" class="fa fa-eye" aria-hidden="true"></i>
+      <i id="hide2" onClick="myFunction()" class="fa fa-eye-slash" aria-hidden="true"></i>
+    </div>
+    
+    <div class='login-btn'>
+      <button type="button" class="login-btn-btn">Entrar</button>
+    </div>
+     
+   
+    <div class='justify-center'>     
+      <p> Não tem uma conta?
+        <a href=''> Cadastre-se </a>
+      </p>
+    </div>
+
+<script src="script.js"></script>
+
+  </body>
